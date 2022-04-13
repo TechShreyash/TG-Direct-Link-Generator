@@ -6,13 +6,13 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Language(object):
     class en(object):
         START_TEXT = """
-<i>👋 Hᴇʏ,</i>{}\n
+**👋 Hᴇʏ, {}**\n
 <i>I'm Telegram Files Streaming Bot As Well Direct Links Generator</i>\n
 <i>Click On Help To Get More Information</i>\n
 <b><i><u>Warning 🚸</u></i></b>\n
 <b>🔞 Pron Contents Leads To Permanenet Ban You.</b>"""
 
-        HELP_TEXT = """**How to Use Me ?**
+        HELP_TEXT = """🔰 **How to Use Me ?**
 
 <i>- Send Me Any File Or Media From Telegram.</i>
 <i>- I Will Provide External Direct Download Link !</i>
@@ -68,8 +68,6 @@ class BUTTON(object):
         ],
         [
         InlineKeyboardButton('Close', callback_data='close'),
-        ],
-        [InlineKeyboardButton("Updates Channel", url='https://t.me/TechZBots'),
-        InlineKeyboardButton("Repo", url='https://github.com/TechShreyash/TG-Direct-Link-Generator')]
+        ]        
         ]
     )
