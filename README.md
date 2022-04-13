@@ -5,7 +5,7 @@
   </a>
   <p align="center">
     A Telegram Bot To Get Direct Links Of Telegram Files.<br/>
-    <a href="http://t.me/TGDirectLinkGenBot"><strong>Demo Bot</strong></a>
+    <a href="http://telegram.me/TGDirectLinkGenBot"><strong>Demo Bot</strong></a>
     <br />    
   </p>
 </p>
@@ -156,7 +156,7 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 
 ## Contact me
 
-[![Telegram Channel](https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://t.me/TechZBots)
-[![Telegram Group](https://img.shields.io/static/v1?label=Join&message=Telegram%20Group&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://t.me/TechZBots_Support)
+[![Telegram Channel](https://img.shields.io/static/v1?label=Join&message=Telegram%20Channel&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://telegram.me/TechZBots)
+[![Telegram Group](https://img.shields.io/static/v1?label=Join&message=Telegram%20Group&color=blueviolet&style=for-the-badge&logo=telegram&logoColor=violet)](https://telegram.me/TechZBots_Support)
 
-You can contact either via my [Telegram Group](https://t.me/TechZBots_Support) or you can PM me on [@Tech_Shreyash](https://t.me/Tech_Shreyash)
+You can contact either via my [Telegram Group](https://telegram.me/TechZBots_Support) or you can PM me on [@Tech_Shreyash](https://telegram.me/Tech_Shreyash)
