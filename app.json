@@ -1,0 +1,50 @@
+{
+    "name": "TG Direct Link Generator",
+    "description": "A Telegram Bot To Get Direct Links Of Telegram Files.",
+    "logo": "https://telegra.ph/file/4d124400b985b2fe6ee1c.jpg",
+    "keywords": [
+        "telegram",        
+        "pyrogram",
+        "aiohttp",
+        "python",
+        "techzbots"        
+      ],
+    "repository": "https://github.com/TechShreyash/TG-Direct-Link-Generator",
+    "env": {        
+        "APP_NAME": {
+            "description": "Copy-Paste the app name that you just typed above."
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this value from @BotFather"
+        },
+        "BIN_CHANNEL": {
+            "description": "The BIN Channel ID. Read the readme for more info about this var"
+        },
+        "WORKERS": {
+            "description": "Number of workers that is to be assigned. Read the readme for more info about this var",
+            "required": false
+        },
+        "PING_INTERVAL": {
+            "description": "The time in ms you want the servers to be pinged each time to avoid sleeping.",
+            "required": false
+        },        
+        "OWNER_ID": {
+            "description": "Your Telegram User ID"
+        }
+    },
+    "buildpacks": [{
+        "url": "heroku/python"
+      }],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+  }
