@@ -48,7 +48,7 @@ async def channel_receive_handler(bot, broadcast: Message):
     try:
         m = broadcast
         log_msg = await broadcast.forward(chat_id=Var.BIN_CHANNEL)
-        reply_markup, Stream_Text, stream_link = await gen_link(m=m, log_msg=log_msg, from_channel=True)
+        replmarkup, Stream_Text, stream_link = await gen_link(m=m, log_msg=log_msg, from_channel=True)
 
         await log_msg.reply_text(
             text=f"**Channel Name:** `{broadcast.chat.title}`\n**Channel ID:** `{broadcast.chat.id}`\n**Request URL:** {stream_link}",
@@ -56,7 +56,7 @@ async def channel_receive_handler(bot, broadcast: Message):
         await bot.edit_message_reply_markup(
             chat_id=broadcast.chat.id,
             message_id=broadcast.message_id,
-            reply_markup=reply_markup
+            reply_markup=replmarkup
         )
     except FloodWait as w:
         print(f"Sleeping for {str(w.x)}s")
